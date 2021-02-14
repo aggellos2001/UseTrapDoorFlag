@@ -1,7 +1,0 @@
-name: "UseTrapDoorFlag"
-version: 1.0
-main: me.aggellos2001.usetrapdoorflag.Main
-description: A simple plugin that add a flag "use-trapdoors" to world edit
-depend:
-  - WorldGuard
-api-version: 1.13
