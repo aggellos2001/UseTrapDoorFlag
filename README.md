@@ -1,4 +1,4 @@
-# UseTrapDoorsFlag
+# UseTrapDoorFlag
 [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/) <br>
 A simple plugin that adds "use-trapdoor flag to WorldGuard. <br>
 Drag and drop this file into your plugins folder. Then you can use the flag as any other World Guard flag.<br>

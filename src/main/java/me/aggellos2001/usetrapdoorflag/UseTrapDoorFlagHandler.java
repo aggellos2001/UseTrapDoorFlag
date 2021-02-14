@@ -9,18 +9,18 @@ import com.sk89q.worldguard.session.Session;
 import com.sk89q.worldguard.session.handler.FlagValueChangeHandler;
 import com.sk89q.worldguard.session.handler.Handler;
 
-public class UseTrapDoorFlag extends FlagValueChangeHandler<StateFlag.State> {
+public class UseTrapDoorFlagHandler extends FlagValueChangeHandler<StateFlag.State> {
 
 	public static final Factory FACTORY = new Factory();
 
-	public static class Factory extends Handler.Factory<UseTrapDoorFlag> {
+	public static class Factory extends Handler.Factory<UseTrapDoorFlagHandler> {
 		@Override
-		public UseTrapDoorFlag create(final Session session) {
-			return new UseTrapDoorFlag(session);
+		public UseTrapDoorFlagHandler create(final Session session) {
+			return new UseTrapDoorFlagHandler(session);
 		}
 	}
 
-	public UseTrapDoorFlag(final Session session) {
+	public UseTrapDoorFlagHandler(final Session session) {
 		super(session, Main.TRAPDOOR_FLAG);
 	}
 

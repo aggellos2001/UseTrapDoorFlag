@@ -3,7 +3,7 @@ plugins {
     id 'com.github.johnrengelman.shadow' version '5.2.0'
 }
 
-group 'me.aggellos2001.usetrapdoorsflag'
+group 'me.aggellos2001.usetrapdoorflag'
 def version = '1.0.0'
 
 repositories {

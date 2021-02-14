@@ -28,7 +28,7 @@ public class Main extends JavaPlugin implements Listener {
 			final var flag = new StateFlag("use-trapdoor", true);
 			worldGuardRegistry.register(flag);
 			TRAPDOOR_FLAG = flag;
-			this.getLogger().info("Flag UseTrapDoor registered!");
+			this.getLogger().info("Flag 'use-trap-door' registered!");
 		} catch (final FlagConflictException e) {
 			e.printStackTrace();
 		}
